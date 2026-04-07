@@ -9,6 +9,7 @@ google-chrome --new-window http://49.234.204.236 https://www.doubao.com github.c
 clash-verge &
 code &
 wechat &
+/home/xuchang/software/Snipaste-2.11.2-x86_64.AppImage &
 
 echo "autostart.sh done"
 exit 0
