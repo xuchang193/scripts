@@ -11,6 +11,7 @@ code &
 wechat &
 /home/xuchang/software/Snipaste-2.11.2-x86_64.AppImage &
 /home/xuchang/Coventor/SEMulator3D11/bin/linux_x64/SEMulator3D &
+notepad-plus-plus &
 
 echo "autostart.sh done"
 exit 0
