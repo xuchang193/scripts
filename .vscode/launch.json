@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "CMake Debug (bash+env.sh 最终版)",
+      "type": "lldb",
+      "request": "launch",
+      // 核心：启动 bash 而不是直接启动程序
+      "program": "/bin/bash",
+      // 核心参数：先source环境脚本，再执行你的程序
+      "args": [
+        "-c",
+        "source ${workspaceFolder}/toolchain/env.sh && ${command:cmake.launchTargetPath}"
+      ],
+      "cwd": "${workspaceFolder}",
+      "terminal": "integrated",
+      "initCommands": [
+        "command script import ${workspaceFolder}/.vscode/qt_lldb_pretty_printers.py"
+      ]
+    }
+  ]
+}

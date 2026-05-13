@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "/home/xuchang/project/app/Application",
+    "cmake.configureSettings": {
+        "CMAKE_PROJECT_INCLUDE": "${workspaceFolder}/Application/local.cmake"
+    }
+}
